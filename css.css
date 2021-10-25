@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');   
+
+*{
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Ubuntu Mono', monospace;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   overflow: hidden;
+   margin: 0;
+}
+
+.bg{
+   background: url('car2.jpg') no-repeat;
+   position: absolute;
+   top: -45px;
+   left: -45px;
+   width: calc(100vw + 75px);
+   height: calc(100vh + 75px);
+   z-index: -1;
+   filter: blur(0px);
+}
+
+.loading-text {
+   font-size: 60px;
+   color: white;
+}
